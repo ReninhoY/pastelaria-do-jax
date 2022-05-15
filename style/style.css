@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap');
+
+p, li, a {
+    font-family: 'Nunito', sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2, h3 {
+    font-family: 'Asap', sans-serif;
+    color: #000000;
+}
+/*  Flexbox arruma o layout de forma fácil  */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f04158;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size:100% ;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#titulo {
+    font-family: 'Yellowtail', cursive;
+    font-size: 500%;
+    font-weight: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/pasteis.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        padding: 20px;
+}
+
+#p-um {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+.botao {
+    color: white;
+    padding: 10px 30px;
+    background-color: #000000;
+    font-size: 170%;
+    border-radius: 40px;
+}
+
+#serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#serviços div img{
+    width: 30%;
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+}
+#contato div img {
+    width: 20%;
+}
+
+footer {
+    background-color: #c1f8ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    font-size: 220%;
+}
+#cor {
+    background-image: radial-gradient(circle at 50% -20.71%, #ffe6cd 0, #ffe7ca 6.25%, #ffe9c9 12.5%, #ffebc8 18.75%, #fbecc8 25%, #f6eec8 31.25%, #f1efc9 37.5%, #ebf1cb 43.75%, #e6f2cd 50%, #e1f3d0 56.25%, #dbf4d3 62.5%, #d6f5d7 68.75%, #d1f6db 75%, #ccf7df 81.25%, #c8f8e4 87.5%, #c4f8e9 93.75%, #c1f8ee 100%);
+}
+
+.produtos-fotos {
+    width: 24%;
+}
+#produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#produto {
+    display: flex;
+    justify-content: center;
+    gap: 0.4%;
+    
+}
+/*  Efeito Hover    */
+#um {
+    cursor: pointer;
+}
+
+#um:hover{
+    transform: scale(1.012);
+}
+
+#dois {
+    cursor: pointer;
+}
+
+#dois:hover {
+    transform: scale(1.012);
+}
+
+#tres {
+    cursor: pointer;
+}
+
+#tres:hover {
+    transform: scale(1.012);
+}
+
+#quatro {
+    cursor: pointer;
+}
+
+#quatro:hover {
+    transform: scale(1.012);
+}
