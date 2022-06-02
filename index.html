@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelaria do Jax</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="shortcut icon" href="img/empanada.ico">
+</head>
+<body>
+    <!--Barra do Topo-->
+    <nav>
+        <a href="#" id="titulo">Pastelaria do Jax</a>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <!--Destaque principal do site-->
+    <header id="topo">
+        <h1>Pastelaria Gourmet</h1>
+        <p id="p-um">Estudar culinária me fez ver as inúmeras possibilidades que temos com comidas símples. Sempre vi muitos repetindo as mesmas receitas com pastéis e pensei: "por que não fazer diferente?". Então, a partir dessas ideias, passei a produzir meus próprios pastéis especiais.</p>
+        <a href="#serviços" class="botao">Ver mais</a>
+    </header>
+    <!--O main vai agrupar as sections-->
+    <main id="cor">
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Prazer, meu nome é Jax! Sou mestrado em gastronomia e fundador dessa empresa. Meu objetivo é proporcionar experiências únicas com pastéis para os consumidores que, assim como eu, estão cansados dos mesmos sabores. Temos 8 restaurantes espalhados por São Paulo e fazemos delivery para todo o estado.</p>
+        <a href="#contato" class="botao">Compre agora!</a>
+    </section>
+    <section id="serviços">
+        <h2>Serviços</h2>
+        <div class="delivery">
+            <img src="img/delivery.png" alt="delivery">
+            <h3>Receba Na Sua Casa!</h3>
+            <p>Entregamos para todo o estado de São Paulo pelo <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/pastel-gourmet-brooklin/2debfa66-eb3b-457e-b768-bfeeea0b59dd" target="_blank">iFood</a></p>
+        </div>
+        <div class="restaurante">
+            <img src="img/restaurant.png" alt="restaurante">
+            <h3>Coma Aqui!</h3>
+            <p>Temos 8 franquias espalhadas pelo estado. Confira a mais próxima no <a href="https://www.google.com.br/maps/search/pastelaria+do+jax/@-23.2423047,-48.4562141,7z/data=!3m1!4b1?hl=pt-BR" target="_blank">MAPS</a></p>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <countainer id="produto">
+            <img src="img/um.png" alt="produto um" class="produtos-fotos" id="um">
+            <img src="img/dois.png" alt="produto dois" class="produtos-fotos" id="dois">
+            <img src="img/tres.png" alt="produto três" class="produtos-fotos" id="tres">
+            <img src="img/quatro.png" alt="produto quatro" class="produtos-fotos" id="quatro">
+        </countainer>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="zap">
+            <img src="img/whatsapp.png" alt="whatsapp">
+            <h3>Chama No ZAP</h3>
+            <!--Os celulares reconhecem o telefone no href dessa forma-->
+            <p><a href="tel:11982063870">(11)98206-3870</a></p>
+        </div>
+
+        <div class="fixo">
+            <img src="img/telefone-velho.png" alt="telefone-fixo">
+            <h3>Ligue Para a Gente</h3>
+            <p><a href="tel:116324441">(11)2632-4441</a></p>
+        </div>
+
+        <div class="email">
+            <img src="img/email.png" alt="email">
+            <!--Os celulares reconhecem o email no href dessa forma-->
+            <h3>Mande Um Email</h3>
+            <p><a href="mailto:pastelariadojaxcomercial@gmail.com">pastelariadojaxcomercial@gmail.com</a></p>
+        </div>
+    </section>
+</main>
+    <!--rodapé-->
+    <footer>
+        <a href="#topo">VOLTAR</a>
+        <p>Desenvolvido por Bruna, Carlos Henrique, Marina Gomes e Renan Carmo.</p>
+    </footer>
+</body>
+</html>
